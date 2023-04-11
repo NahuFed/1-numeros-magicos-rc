@@ -11,10 +11,7 @@ main{
     align-items: center;
 }
 
-.container .btn{
-    height: 12rem;
-    width: 20rem;
-}
+
 
 div{
     display: flex;
@@ -28,12 +25,4 @@ table{
 
 table th, tr, td{  
     width: 25%
-}
-
-@media screen and (max-width: 768px) {
-    .container .btn{
-        height: 6rem;
-        width: 10rem;
-    }
-    
 }
