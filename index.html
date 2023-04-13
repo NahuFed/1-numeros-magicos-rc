@@ -13,19 +13,17 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
- <header>
-    <h1 class="text-center mt-5">Numeros Mágicos</h1>
- </header>   
+  
  <main class="container"> 
     <h2>Adivina el numero!</h2>
-    <button type="button" class="btn btn-outline-success fs-1">Jugar</button>
+    
     <form>
       <div class="mb-3">
         <label for="inputNro" class="form-label">Ingrese un numero</label>
         <input type="number" class="form-control" id="inputNro" aria-describedby="ayudaNro">
         <div id="ayudaNro" class="form-text">El numero tiene que ser entre 0 y 100</div>
+        <button type="submit" class="btn btn-primary mt-5 mt-md-0 " id="btn-submit">Jugar</button>
       </div>
-      <button type="submit" class="btn btn-primary" id="btn-submit">Jugar</button>
     </form>
  </main>
  <footer></footer>

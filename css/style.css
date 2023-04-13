@@ -18,11 +18,30 @@ div{
     justify-content: center;
 }
 
-table{
-    width: 90%;
-    text-align: center;
-}
 
-table th, tr, td{  
-    width: 25%
+
+@media screen and (max-width: 768px) {
+
+    main{
+        font-size: 2rem;
+        text-align: center;
+    }
+    form div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+    }
+
+    .container input{
+        width: 5rem;
+        height: 4rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .container .btn{
+        font-size: 3rem;
+    }
 }
